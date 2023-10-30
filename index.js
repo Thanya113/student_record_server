@@ -12,8 +12,8 @@ app.use(cors())
 app.use(express.json())
 
 const PORT = process.env.PORT || 8081
-const mongoURI = 'mongodb+srv://thanyarg21it:thanyamongo@cluster0.1ufufbq.mongodb.net/crudoperation';
-const facultyMongoURI = 'mongodb+srv://thanyarg21it:thanyamongo@cluster0.1ufufbq.mongodb.net/facultyoperation';
+const mongoURI = 'mongodb+srv://thanyarg21it:Thanyamongo@cluster0.1ufufbq.mongodb.net/crudoperation';
+const facultyMongoURI = 'mongodb+srv://thanyarg21it:Thanyamongo@cluster0.1ufufbq.mongodb.net/facultyoperation';
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, "uploads/");
